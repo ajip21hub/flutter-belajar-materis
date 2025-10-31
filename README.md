@@ -52,6 +52,18 @@ npm i -g vercel
 vercel
 ```
 
+## 📝 Materi yang Tersedia
+
+### 📚 **Materi Pembelajaran Flutter**
+
+#### **Materi Dasar:**
+- **[Day 3 - Grid User dari API](docs/day3.md)** - Membuat aplikasi Flutter dengan API integration dan GridView
+
+#### **Materi Lanjutan: Analisis & Pengembangan Fitur**
+- **[App Analysis Guide](docs/app-analysis-guide.md)** - Framework lengkap untuk menganalisis aplikasi existing dan identifikasi gap fitur
+- **[Feature Development Template](docs/feature-development-template.md)** - Template terstruktur untuk perencanaan dan implementasi fitur
+- **[Case Studies & Examples](docs/case-studies-examples.md)** - Contoh kasus konkret dengan 10 ide fitur dan implementasi breakdown
+
 ## 📝 Menambah Materi Baru
 
 ### 1. Tambahkan file markdown baru
@@ -59,8 +71,8 @@ vercel
 Buat file `.md` baru di folder `docs/`, contoh:
 
 ```bash
-# Buat file day4.md
-touch docs/day4.md
+# Buat file baru
+touch docs/nama-materi-baru.md
 ```
 
 ### 2. Update konfigurasi sidebar
@@ -70,10 +82,17 @@ Edit `docs/.vitepress/config.mjs`:
 ```js
 sidebar: [
   {
-    text: 'Materi Pembelajaran',
+    text: 'Materi Dasar',
     items: [
-      { text: 'Day 3 - Grid User dari API', link: '/day3' },
-      { text: 'Day 4 - Materi Baru', link: '/day4' }  // ← Tambahkan di sini
+      { text: 'Day 3 - Grid User dari API', link: '/day3' }
+    ]
+  },
+  {
+    text: 'Analisis & Pengembangan Fitur',
+    items: [
+      { text: 'App Analysis Guide', link: '/app-analysis-guide' },
+      { text: 'Feature Development Template', link: '/feature-development-template' },
+      { text: 'Case Studies & Examples', link: '/case-studies-examples' }
     ]
   }
 ]
@@ -95,12 +114,14 @@ Vercel akan otomatis rebuild dan deploy!
 materis/
 ├── docs/
 │   ├── .vitepress/
-│   │   └── config.mjs       # Konfigurasi VitePress & navigation
-│   ├── index.md             # Homepage
-│   ├── day3.md              # Materi Day 3
-│   └── day4.md              # Materi Day 4 (tambah nanti)
+│   │   └── config.mjs               # Konfigurasi VitePress & navigation
+│   ├── index.md                     # Homepage
+│   ├── day3.md                      # Materi Day 3 - Flutter Grid User
+│   ├── app-analysis-guide.md        # Framework Analisis Aplikasi
+│   ├── feature-development-template.md  # Template Pengembangan Fitur
+│   └── case-studies-examples.md     # Contoh Kasus & Implementasi
 ├── package.json
-├── vercel.json              # Konfigurasi deployment Vercel
+├── vercel.json                      # Konfigurasi deployment Vercel
 └── README.md
 ```
 
