@@ -9,7 +9,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Materi', link: '/day3' }
+      { text: 'Materi', link: '/day3' },
+      { text: 'Lanjutan', link: '/lanjutan/' }
     ],
 
     sidebar: [
@@ -46,6 +47,18 @@ export default defineConfig({
           { text: 'App Analysis Guide', link: '/app-analysis-guide' },
           { text: 'Feature Development Template', link: '/feature-development-template' },
           { text: 'Case Studies & Examples', link: '/case-studies-examples' }
+        ]
+      },
+      {
+        text: '🚀 Pelatihan Lanjutan — Advanced (5 Hari)',
+        collapsed: false,
+        items: [
+          { text: 'Overview & Silabus', link: '/lanjutan/' },
+          { text: 'Hari 1 - Arsitektur, Dart 3.13 & Riverpod 3', link: '/lanjutan/day1' },
+          { text: 'Hari 2 - Jaringan Aman & go_router', link: '/lanjutan/day2' },
+          { text: 'Hari 3 - Offline-First, Background & Real-time', link: '/lanjutan/day3' },
+          { text: 'Hari 4 - Kualitas, Performa & Native', link: '/lanjutan/day4' },
+          { text: 'Hari 5 - Produksi, AI & Rilis', link: '/lanjutan/day5' }
         ]
       }
     ],

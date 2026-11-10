@@ -97,6 +97,6 @@ Implementasi fitur yang biasa ditemui di production environment dengan challenge
 - ✅ **Materi Dasar** - Fundamental concepts & basic implementations
 - ✅ **Multi-Language** - Complete internationalization system
 - ✅ **Environment Management** - Secure configuration management
-- 🔄 **Advanced Features** - Coming soon (offline support, push notifications, etc.)
-- 🔄 **Performance Optimization** - Coming soon (caching, lazy loading, etc.)
-- 🔄 **Testing Strategies** - Coming soon (E2E testing, performance testing)
+- ✅ **Advanced Features** - Offline-first, push notification, real-time, AI → [Pelatihan Lanjutan](/lanjutan/)
+- ✅ **Performance Optimization** - Caching, isolate, profiling DevTools → [Hari 4](/lanjutan/day4)
+- ✅ **Testing Strategies** - E2E dengan Patrol, golden, leak tracking → [Hari 4](/lanjutan/day4)
